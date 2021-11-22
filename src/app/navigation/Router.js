@@ -1,9 +1,10 @@
 import {Routes, Route} from 'react-router-dom';
-import {Dashboard} from '../views'
+import {Dashboard,Drinks} from '../views'
 
 const Router = () =>(
     <Routes>
-        <Route exact path="/dashboard" element={<Dashboard/>}/>
+        <Route exact path="/" element={<Dashboard/>}/>
+        <Route exact path="/menu/drinks" element={<Drinks/>}/>
     </Routes>
 )
 

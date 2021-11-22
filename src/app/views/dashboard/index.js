@@ -8,9 +8,12 @@ import {
     useBreakpointValue,
   } from '@chakra-ui/react';
   import './style.css'
+import { Footer, Navbar } from '../../components';
   
   export default function Dashboard() {
     return (
+      <>
+      <Navbar/>
       <Flex
         w={'full'}
         h={'100vh'}
@@ -52,5 +55,7 @@ import {
           </Stack>
         </VStack>
       </Flex>
+      <Footer/>
+      </>
     );
   }

@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Jarritos",
+        "price": "$2",
+        "image": "https://live.staticflickr.com/65535/51690264252_abfe32d5f3.jpg",
+        "description": "Choose between fruit punch, pineapple, tamarind, mandarin, strawberry and lime."
+    },
+    {
+        "name": "Mexican coke",
+        "price": "$3",
+        "image": "https://live.staticflickr.com/65535/51690264227_7cee92be42.jpg",
+        "description": "500 ml mexican style coke."
+    },
+    {
+        "name": "Sangria",
+        "price": "$2",
+        "image": "https://live.staticflickr.com/65535/51690264222_be94d232e6.jpg",
+        "description": "Made with wine grapes, essence of lemon, cane sugar, and carbonated water."
+    },
+    {
+        "name": "Manzanita sol",
+        "price": "$2",
+        "image": "https://live.staticflickr.com/65535/51691948615_83999a11af.jpg",
+        "description": "Apple-flavored soft drinks."
+    },
+    {
+        "name": "Can soda",
+        "price": "$1",
+        "image": "https://live.staticflickr.com/65535/51691738889_f944b7b01c.jpg",
+        "description": "Choose between coca-cola, sprite and diet coke."
+    }
+]
