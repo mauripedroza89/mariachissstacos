@@ -259,7 +259,7 @@ import {
         {
           label: 'Food',
           subLabel: 'Try our tasty plates!',
-          href: '#',
+          href: '/menu/food',
         },
         {
           label: 'Drinks',

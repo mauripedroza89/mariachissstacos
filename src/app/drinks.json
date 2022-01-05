@@ -28,5 +28,17 @@
         "price": "$1",
         "image": "https://live.staticflickr.com/65535/51691738889_f944b7b01c.jpg",
         "description": "Choose between coca-cola, sprite and diet coke."
+    },
+    {
+        "name": "Lemonade",
+        "price": "$3",
+        "image": "https://live.staticflickr.com/65535/51802108783_557083f583_m.jpg",
+        "description": "Daily made fresh lemonade."
+    },
+    {
+        "name": "Horchata",
+        "price": "$3",
+        "image": "https://live.staticflickr.com/65535/51802108788_c6a50d9432.jpg",
+        "description": "Daily made fresh horchata water."
     }
 ]

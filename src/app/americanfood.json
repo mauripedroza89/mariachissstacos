@@ -2,31 +2,31 @@
     {
         "name": "Mexican burger",
         "price": "$8",
-        "image": "https://live.staticflickr.com/65535/51690264252_abfe32d5f3.jpg",
+        "image": "https://live.staticflickr.com/65535/51801038912_cb414455e9_m.jpg",
         "description": "Burger with cheese, ham, avocado, grilled onion, tomato, lettuce, mayo, mustard and a side of fries."
     },
     {
         "name": "Hotdogs",
         "price": "$8",
-        "image": "https://live.staticflickr.com/65535/51690264227_7cee92be42.jpg",
+        "image": "https://live.staticflickr.com/65535/51801983446_4fd716d1b6_m.jpg",
         "description": "2 hotdogs with asada meat, cheese, raw and grilled onion, tomato, cilantro and avocado."
     },
     {
         "name": "8 wings",
         "price": "$13",
-        "image": "https://live.staticflickr.com/65535/51690264222_be94d232e6.jpg",
+        "image": "https://live.staticflickr.com/65535/51801983386_569e96e4ff_m.jpg",
         "description": "Choose between buffalo, BBQ, mango habanero, tamarindo, lemon pepper or teriyaki, comes with fries."
     },
     {
         "name": "12 wings",
         "price": "$2",
-        "image": "https://live.staticflickr.com/65535/51691948615_83999a11af.jpg",
+        "image": "https://live.staticflickr.com/65535/51801983386_569e96e4ff_m.jpg",
         "description": "Choose between buffalo, BBQ, mango habanero, tamarindo, lemon pepper or teriyaki, comes with fries."
     },
     {
         "name": "20 wings",
         "price": "$1",
-        "image": "https://live.staticflickr.com/65535/51691738889_f944b7b01c.jpg",
+        "image": "https://live.staticflickr.com/65535/51801983386_569e96e4ff_m.jpg",
         "description": "Choose between buffalo, BBQ, mango habanero, tamarindo, lemon pepper or teriyaki, comes with fries."
     }
 ]

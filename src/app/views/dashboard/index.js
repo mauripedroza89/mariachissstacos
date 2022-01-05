@@ -9,6 +9,7 @@ import {
   } from '@chakra-ui/react';
   import './style.css'
 import { Footer, Navbar } from '../../components';
+import mariachiphoto from '../../assets/images/mariachistruck.jpeg'
   
   export default function Dashboard() {
     return (
@@ -18,7 +19,7 @@ import { Footer, Navbar } from '../../components';
         w={'full'}
         h={'100vh'}
         backgroundImage={
-          'url(https://images.unsplash.com/photo-1600267175161-cfaa711b4a81?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80)'
+          mariachiphoto
         }
         backgroundSize={'cover'}
         backgroundPosition={'center center'}>
@@ -33,8 +34,8 @@ import { Footer, Navbar } from '../../components';
               fontWeight={700}
               lineHeight={1.2}
               fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
-              Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
-              eiusmod tempor
+              Welcome to Mariachisss Tacos!
+              The best birria in San Antonio!
             </Text>
             <Stack direction={'row'}>
               <Button
