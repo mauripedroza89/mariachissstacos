@@ -12,24 +12,6 @@
         "description": "Crispy birria tacos with cheese and a side of consome."
     },
     {
-        "name": "Giant Quesadilla",
-        "price": "$8",
-        "image": "https://live.staticflickr.com/65535/51802349804_8832951cb1.jpg",
-        "description": "Red birria quesadilla with cheese and a side of consome."
-    },
-    {
-        "name": "Burrito Filemon",
-        "price": "$8",
-        "image": "https://live.staticflickr.com/65535/51690264227_7cee92be42.jpg",
-        "description": "Red birria burrito with cheese, cilanto, onion and a side of consome."
-    },
-    {
-        "name": "Christian's plate",
-        "price": "$8",
-        "image": "https://live.staticflickr.com/65535/51690264227_7cee92be42.jpg",
-        "description": "Birria, onion, cilantro, 5 tortillas, consome and charro beans."
-    },
-    {
         "name": "Burrito",
         "price": "$7",
         "image": "https://live.staticflickr.com/65535/51801983491_cf33b4ea42.jpg",

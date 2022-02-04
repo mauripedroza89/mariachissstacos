@@ -1,11 +1,11 @@
-import { SimpleGrid } from "@chakra-ui/react";
+import { Grid } from "@chakra-ui/react";
 import DrinkBox from './DrinkBox';
 import Drinks from '../../drinks.json';
 
 
 export default function DrinkGrid(){
   return(
-    <SimpleGrid columns={[2, null, 5]} spacing="40px">
+    <Grid templateColumns={{base: "repeat(1, 1fr)", md: "repeat(4, 5fr)"}} gap="5" >
       
       {Drinks.map((list, index) =>{
         return <div>
@@ -20,7 +20,7 @@ export default function DrinkGrid(){
       })}
 
     
-  </SimpleGrid>
+  </Grid>
 
 )
 

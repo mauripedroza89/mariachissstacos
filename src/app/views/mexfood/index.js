@@ -1,6 +1,6 @@
 import React from 'react';
 import { MexFoodGrid, Footer, Navbar} from '../../components';
-import { Heading,Box } from '@chakra-ui/react';
+import { Heading,Box, Button, ButtonGroup  } from '@chakra-ui/react';
 
 export default function MexFood(){
     return(
@@ -15,7 +15,20 @@ export default function MexFood(){
                   overflow='hidden'
                   align='center'>
             <Heading>Choose between Asada, Pastor, Chicken, Birria, Barbacoa or Campechano.</Heading>
+
             </Box>
+            <a href="/menu/food/">
+                <Button
+                size='md'
+                colorScheme='red'
+                height='48px'
+                width='200px'
+                border='2px'
+                borderColor='red.500'
+                >
+                Go Back
+                </Button>
+                </a>
             <MexFoodGrid/>
             <Footer/>
         </div>

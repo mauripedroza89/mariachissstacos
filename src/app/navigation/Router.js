@@ -1,5 +1,5 @@
 import {Routes, Route} from 'react-router-dom';
-import {Dashboard,Drinks, Food, MexFood, UsFood} from '../views'
+import {BirriaFood, Dashboard,Drinks, Food, MexFood, UsFood} from '../views'
 
 const Router = () =>(
     <Routes>
@@ -8,6 +8,7 @@ const Router = () =>(
         <Route exact path="/menu/food" element={<Food/>}/>
         <Route exact path="/menu/food/mexicanfood" element={<MexFood/>}/>
         <Route exact path="/menu/food/americanfood" element={<UsFood/>}/>
+        <Route exact path="/menu/food/birriaspecials" element={<BirriaFood/>}/>
     </Routes>
 )
 

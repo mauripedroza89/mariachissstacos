@@ -17,10 +17,12 @@ const Footer = () => (
     }}
   >
     <Stack>
-      <Stack direction="row" spacing="4" align="center" justify="space-between">
-        <Avatar src={logo}/>
+      
+      <Stack id="socialmedia" direction="column" spacing="4" align="center" justify="space-around">
+        
         <SocialMediaLinks />
       </Stack>
+      <Avatar src={logo}/>
       <Copyright
         alignSelf={{
           base: 'center',

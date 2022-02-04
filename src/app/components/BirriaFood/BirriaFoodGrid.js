@@ -1,13 +1,13 @@
 import { Grid } from "@chakra-ui/react";
 import FoodBox from './FoodBox';
-import MexFood from '../../mexicanfood.json';
+import BirriaFood from '../../birriafood.json';
 
 
-export default function MexFoodGrid(){
+export default function BirriaFoodGrid(){
   return(
     <Grid templateColumns={{base: "repeat(1, 1fr)", md: "repeat(4, 5fr)"}} gap="5" >
       
-      {MexFood.map((list, index) =>{
+      {BirriaFood.map((list, index) =>{
         return <div>
           <FoodBox
             key={index}

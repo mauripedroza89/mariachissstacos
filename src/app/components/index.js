@@ -3,3 +3,8 @@ export { default as Footer} from './Footer';
 export { default as DrinkGrid } from './Drinks/DrinkGrid';
 export { default as MexFoodGrid } from './MexicanFood/MexFoodGrid';
 export { default as UsFoodGrid } from './AmericanFood/UsFoodGrid';
+export { default as BirriaFoodGrid } from './/BirriaFood/BirriaFoodGrid';
+export { default as Carousels } from './Carousel/Carousel';
+export { default as Owner } from './Owner/Owner';
+export { default as Testimonials } from './Testimonial/Testimonial';
+export { default as Contact } from './Contact/Contact';

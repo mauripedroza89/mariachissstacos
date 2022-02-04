@@ -1,6 +1,7 @@
 import React from 'react';
-import { UsFoodGrid, Footer, Navbar } from '../../components';
+import { BirriaFoodGrid, Footer, Navbar } from '../../components';
 import { Heading,Box, Button } from '@chakra-ui/react';
+
 
 export default function UsFood(){
     return(
@@ -18,7 +19,7 @@ export default function UsFood(){
                 Go Back
                 </Button>
                 </a>
-            <UsFoodGrid/>
+            <BirriaFoodGrid/>
             <Footer/>
         </div>
     )

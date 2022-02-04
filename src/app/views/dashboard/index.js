@@ -8,7 +8,7 @@ import {
     useBreakpointValue,
   } from '@chakra-ui/react';
   import './style.css'
-import { Footer, Navbar } from '../../components';
+import { Footer, Navbar, Carousels, Owner, Testimonials, Contact } from '../../components';
 import mariachiphoto from '../../assets/images/mariachistruck.jpeg'
   
   export default function Dashboard() {
@@ -16,8 +16,9 @@ import mariachiphoto from '../../assets/images/mariachistruck.jpeg'
       <>
       <Navbar/>
       <Flex
-        w={'full'}
-        h={'100vh'}
+        w={{ base: '400', md: 'full' }}
+        h={{ base: '400', md: '100vh' }}
+        align={'center'}
         backgroundImage={
           mariachiphoto
         }
@@ -37,25 +38,14 @@ import mariachiphoto from '../../assets/images/mariachistruck.jpeg'
               Welcome to Mariachisss Tacos!
               The best birria in San Antonio!
             </Text>
-            <Stack direction={'row'}>
-              <Button
-                bg={'blue.400'}
-                rounded={'full'}
-                color={'white'}
-                _hover={{ bg: 'blue.500' }}>
-                Show me more
-              </Button>
-              <Button
-                bg={'whiteAlpha.300'}
-                rounded={'full'}
-                color={'white'}
-                _hover={{ bg: 'whiteAlpha.500' }}>
-                Show me more
-              </Button>
-            </Stack>
           </Stack>
         </VStack>
       </Flex>
+      <Carousels/>
+
+      <Owner/>
+      <Testimonials/>
+      <Contact/>
       <Footer/>
       </>
     );

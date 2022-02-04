@@ -30,14 +30,14 @@ import {
     return (
       <Box>
         <Flex
-          bg={useColorModeValue('white', 'gray.800')}
-          color={useColorModeValue('gray.600', 'white')}
+          bg={useColorModeValue('white', 'red.800')}
+          color={useColorModeValue('red.600', 'white')}
           minH={'60px'}
           py={{ base: 2 }}
           px={{ base: 4 }}
           borderBottom={1}
           borderStyle={'solid'}
-          borderColor={useColorModeValue('gray.200', 'gray.900')}
+          borderColor={useColorModeValue('red.200', 'red.900')}
           align={'center'}>
           <Flex
             flex={{ base: 1, md: 'auto' }}
@@ -52,12 +52,12 @@ import {
               aria-label={'Toggle Navigation'}
             />
           </Flex>
-          <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
+          <Flex flex={{ base: 3 }} justify={{ base: 'center', md: 'center' }}>
             <Text
-              textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
+              textAlign={useBreakpointValue({ base: 'center', md: 'center' })}
               fontFamily={'heading'}
-              color={useColorModeValue('gray.800', 'white')}>
-                <a href="/"><Avatar  src={logo}/></a>
+              color={useColorModeValue('red.800', 'white')}>
+                <a href="/"><Avatar  src={logo} size={'lg'}/></a>
               
             </Text>
   
@@ -68,29 +68,10 @@ import {
   
           <Stack
             flex={{ base: 1, md: 0 }}
-            justify={'flex-end'}
+            justify={'center'}
             direction={'row'}
             spacing={6}>
-            <Button
-              as={'a'}
-              fontSize={'sm'}
-              fontWeight={400}
-              variant={'link'}
-              href={'#'}>
-              Sign In
-            </Button>
-            <Button
-              display={{ base: 'none', md: 'inline-flex' }}
-              fontSize={'sm'}
-              fontWeight={600}
-              color={'white'}
-              bg={'red.400'}
-              href={'#'}
-              _hover={{
-                bg: 'red.300',
-              }}>
-              Sign Up
-            </Button>
+            
           </Stack>
         </Flex>
   
@@ -102,12 +83,12 @@ import {
   }
   
   const DesktopNav = () => {
-    const linkColor = useColorModeValue('gray.600', 'gray.200');
-    const linkHoverColor = useColorModeValue('gray.800', 'white');
-    const popoverContentBgColor = useColorModeValue('white', 'gray.800');
+    const linkColor = useColorModeValue('red.600', 'red.200');
+    const linkHoverColor = useColorModeValue('red.800', 'white');
+    const popoverContentBgColor = useColorModeValue('white', 'red.800');
   
     return (
-      <Stack direction={'row'} spacing={4}>
+      <Stack direction={'row'} spacing={4} paddingTop={3}>
         {NAV_ITEMS.map((navItem) => (
           <Box key={navItem.label}>
             <Popover trigger={'hover'} placement={'bottom-start'}>
@@ -115,8 +96,8 @@ import {
                 <Link
                   p={2}
                   href={navItem.href ?? '#'}
-                  fontSize={'sm'}
-                  fontWeight={500}
+                  fontSize={'xl'}
+                  fontWeight={800}
                   color={linkColor}
                   _hover={{
                     textDecoration: 'none',
@@ -156,7 +137,7 @@ import {
         display={'block'}
         p={2}
         rounded={'md'}
-        _hover={{ bg: useColorModeValue('red.50', 'gray.900') }}>
+        _hover={{ bg: useColorModeValue('red.50', 'red.900') }}>
         <Stack direction={'row'} align={'center'}>
           <Box>
             <Text
@@ -172,7 +153,7 @@ import {
             transform={'translateX(-10px)'}
             opacity={0}
             _groupHover={{ opacity: '100%', transform: 'translateX(0)' }}
-            justify={'flex-end'}
+            justify={'center'}
             align={'center'}
             flex={1}>
             <Icon color={'red.400'} w={5} h={5} as={ChevronRightIcon} />
@@ -185,7 +166,7 @@ import {
   const MobileNav = () => {
     return (
       <Stack
-        bg={useColorModeValue('white', 'gray.800')}
+        bg={useColorModeValue('white', 'red.800')}
         p={4}
         display={{ md: 'none' }}>
         {NAV_ITEMS.map((navItem) => (
@@ -211,7 +192,7 @@ import {
           }}>
           <Text
             fontWeight={600}
-            color={useColorModeValue('gray.600', 'gray.200')}>
+            color={useColorModeValue('red.600', 'red.200')}>
             {label}
           </Text>
           {children && (
@@ -231,8 +212,8 @@ import {
             pl={4}
             borderLeft={1}
             borderStyle={'solid'}
-            borderColor={useColorModeValue('gray.200', 'gray.700')}
-            align={'start'}>
+            borderColor={useColorModeValue('red.200', 'red.700')}
+            align={'center'}>
             {children &&
               children.map((child) => (
                 <Link key={child.label} py={2} href={child.href}>
@@ -255,6 +236,7 @@ import {
   const NAV_ITEMS: Array<NavItem> = [
     {
       label: 'Menu',
+      href:"/",
       children: [
         {
           label: 'Food',
@@ -274,39 +256,18 @@ import {
       },
       {
         label: 'Our favourites',
-        href: '#',
+        href: '/#favourites',
       },
     {
       label: 'About Mariachisss',
-      children: [
-        {
-          label: 'Our history',
-          href: '#',
-        },
-        {
-          label: 'extra',
-          subLabel: 'Try our best selling dishes',
-          href: '#',
-        },
-      ],
+      href: '/#about',
+    },
+    {
+      label: 'Feedback',
+      href: '/#feedback',
     },
     {
         label: 'Contact',
-        children: [
-          {
-            label: 'Call us',
-            href: '#',
-          },
-          {
-            label: 'Location',
-            href: '#',
-          },
-          {
-            label: 'Social media',
-            href: '#',
-          },
-        ],
-      },
-      
-    
+        href: '/#contact',
+    },
   ];
