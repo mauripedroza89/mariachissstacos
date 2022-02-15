@@ -7,11 +7,7 @@ import {
     Stack,
     Image,
   } from '@chakra-ui/react';
-  
-  const IMAGE =
-    'https://live.staticflickr.com/65535/51690264252_abfe32d5f3.jpg';
-   
-  
+
   export default function FoodBox(props) {
     return (
       <Center py={12}>

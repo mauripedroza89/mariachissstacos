@@ -1,14 +1,11 @@
 import React from "react";
 import {
     Heading,
-    Avatar,
     Box,
-    Center,
     Text,
     Stack,
     IconButton,
     Link,
-    Badge,
     useColorModeValue,
   } from '@chakra-ui/react';
 import { TiLocationOutline } from 'react-icons/ti';
@@ -16,7 +13,6 @@ import { FaMobileAlt } from 'react-icons/fa';
 import { SiDoordash } from "react-icons/si";
 
 
-  
   export default function Contact() {
     return (
       <Stack id="contact" 

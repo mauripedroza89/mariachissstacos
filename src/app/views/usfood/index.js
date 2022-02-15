@@ -1,6 +1,6 @@
 import React from 'react';
 import { UsFoodGrid, Footer, Navbar } from '../../components';
-import { Heading,Box, Button } from '@chakra-ui/react';
+import { Button } from '@chakra-ui/react';
 
 export default function UsFood(){
     return(

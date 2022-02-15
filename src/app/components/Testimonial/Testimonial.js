@@ -17,7 +17,7 @@ const Testimonial = ({ children }: { children: ReactNode }) => {
 const TestimonialContent = ({ children }: { children: ReactNode }) => {
   return (
     <Stack
-      bg={useColorModeValue('white', 'gray.800')}
+      bg={useColorModeValue('#f2f4f3', '#0a0908')}
       boxShadow={'lg'}
       p={8}
       rounded={'xl'}
@@ -33,7 +33,7 @@ const TestimonialContent = ({ children }: { children: ReactNode }) => {
         borderRightWidth: 16,
         borderTop: 'solid',
         borderTopWidth: 16,
-        borderTopColor: useColorModeValue('white', 'gray.800'),
+        borderTopColor: useColorModeValue('#f2f4f3', '#0a0908'),
         pos: 'absolute',
         bottom: '-16px',
         left: '50%',
@@ -56,7 +56,7 @@ const TestimonialText = ({ children }: { children: ReactNode }) => {
   return (
     <Text
       textAlign={'center'}
-      color={useColorModeValue('gray.600', 'gray.400')}
+      color={useColorModeValue('#5e503f', '#f2f4f3')}
       fontSize={'sm'}>
       {children}
     </Text>
@@ -77,7 +77,7 @@ const TestimonialAvatar = ({
       <Avatar src={src} alt={name} mb={2} />
       <Stack spacing={-1} align={'center'}>
         <Text fontWeight={600}>{name}</Text>
-        <Text fontSize={'sm'} color={useColorModeValue('gray.600', 'gray.400')}>
+        <Text fontSize={'sm'} color={useColorModeValue('#f2f4f3', '#5e503f')}>
           {title}
         </Text>
       </Stack>
@@ -87,11 +87,11 @@ const TestimonialAvatar = ({
 
 export default function Testimonials() {
   return (
-    <Box id="feedback" bg={useColorModeValue('gray.100', 'gray.700')}>
+    <Box id="feedback" bg={useColorModeValue('#49111c', '#49111c')}>
       <Container maxW={'7xl'} py={16} as={Stack} spacing={12}>
         <Stack spacing={0} align={'center'}>
-          <Heading>Our Clients Speak</Heading>
-          <Text>We have been working with clients around the world</Text>
+          <Heading color={useColorModeValue('#f2f4f3', '#f2f4f3')}>Our Clients Speak</Heading>
+          <Text color={useColorModeValue('#f2f4f3', '#f2f4f3')}>We have been working with clients around the world</Text>
         </Stack>
         <Stack
           direction={{ base: 'column', md: 'row' }}

@@ -2,10 +2,10 @@ import React from 'react';
 import {
     Stack,
     Flex,
-    Button,
     Text,
     VStack,
     useBreakpointValue,
+   
   } from '@chakra-ui/react';
   import './style.css'
 import { Footer, Navbar, Carousels, Owner, Testimonials, Contact } from '../../components';
@@ -13,9 +13,12 @@ import mariachiphoto from '../../assets/images/mariachistruck.jpeg'
   
   export default function Dashboard() {
     return (
-      <>
+      <Stack backgroundColor='#f2f4f3'>
       <Navbar/>
+      <Carousels/>
+      <Stack marginX='1' marginY='1'>
       <Flex
+      
         w={{ base: '400', md: 'full' }}
         h={{ base: '400', md: '100vh' }}
         align={'center'}
@@ -41,12 +44,13 @@ import mariachiphoto from '../../assets/images/mariachistruck.jpeg'
           </Stack>
         </VStack>
       </Flex>
-      <Carousels/>
+      </Stack>
+      
 
       <Owner/>
       <Testimonials/>
       <Contact/>
       <Footer/>
-      </>
+      </Stack>
     );
   }

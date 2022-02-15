@@ -3,7 +3,6 @@ import {
     Flex,
     Text,
     IconButton,
-    Button,
     Stack,
     Collapse,
     Icon,
@@ -23,21 +22,22 @@ import {
     ChevronRightIcon,
   } from '@chakra-ui/icons';
   import logo from '../../assets/images/logo.jpeg'
+  import "./styles.css"
   
   export default function NavBar() {
     const { isOpen, onToggle } = useDisclosure();
   
     return (
-      <Box>
+      <Box className="test">
         <Flex
-          bg={useColorModeValue('white', 'red.800')}
-          color={useColorModeValue('red.600', 'white')}
+          bg={useColorModeValue('#49111c', '#f2f4f3')}
+          color={useColorModeValue('#f2f4f3', '#49111c')}
           minH={'60px'}
           py={{ base: 2 }}
           px={{ base: 4 }}
           borderBottom={1}
           borderStyle={'solid'}
-          borderColor={useColorModeValue('red.200', 'red.900')}
+          borderColor={useColorModeValue('#0a0908', '#0a0908')}
           align={'center'}>
           <Flex
             flex={{ base: 1, md: 'auto' }}
@@ -56,7 +56,7 @@ import {
             <Text
               textAlign={useBreakpointValue({ base: 'center', md: 'center' })}
               fontFamily={'heading'}
-              color={useColorModeValue('red.800', 'white')}>
+              color={useColorModeValue('#a9927d', '#f2f4f3')}>
                 <a href="/"><Avatar  src={logo} size={'lg'}/></a>
               
             </Text>
@@ -83,9 +83,9 @@ import {
   }
   
   const DesktopNav = () => {
-    const linkColor = useColorModeValue('red.600', 'red.200');
-    const linkHoverColor = useColorModeValue('red.800', 'white');
-    const popoverContentBgColor = useColorModeValue('white', 'red.800');
+    const linkColor = useColorModeValue('#F2F4F3', '#F2F4F3');
+    const linkHoverColor = useColorModeValue('#A9927D', '#F2F4F3');
+    const popoverContentBgColor = useColorModeValue('#49111c', '#a9927d');
   
     return (
       <Stack direction={'row'} spacing={4} paddingTop={3}>
@@ -137,12 +137,12 @@ import {
         display={'block'}
         p={2}
         rounded={'md'}
-        _hover={{ bg: useColorModeValue('red.50', 'red.900') }}>
+        _hover={{ bg: useColorModeValue('#49111c', '#f2f4f3') }}>
         <Stack direction={'row'} align={'center'}>
           <Box>
             <Text
               transition={'all .3s ease'}
-              _groupHover={{ color: 'red.400' }}
+              _groupHover={{ color: '#a9927d' }}
               fontWeight={500}>
               {label}
             </Text>
@@ -166,7 +166,7 @@ import {
   const MobileNav = () => {
     return (
       <Stack
-        bg={useColorModeValue('white', 'red.800')}
+        bg={useColorModeValue('#f2f4f3', '#f2f4f3')}
         p={4}
         display={{ md: 'none' }}>
         {NAV_ITEMS.map((navItem) => (
@@ -192,7 +192,7 @@ import {
           }}>
           <Text
             fontWeight={600}
-            color={useColorModeValue('red.600', 'red.200')}>
+            color={useColorModeValue('#0a0908', '#0a0908')}>
             {label}
           </Text>
           {children && (
@@ -212,7 +212,7 @@ import {
             pl={4}
             borderLeft={1}
             borderStyle={'solid'}
-            borderColor={useColorModeValue('red.200', 'red.700')}
+            borderColor={useColorModeValue('#0a0908', '#5e503f')}
             align={'center'}>
             {children &&
               children.map((child) => (
@@ -236,7 +236,6 @@ import {
   const NAV_ITEMS: Array<NavItem> = [
     {
       label: 'Menu',
-      href:"/",
       children: [
         {
           label: 'Food',

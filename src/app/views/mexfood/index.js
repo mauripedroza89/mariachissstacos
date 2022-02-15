@@ -1,6 +1,6 @@
 import React from 'react';
 import { MexFoodGrid, Footer, Navbar} from '../../components';
-import { Heading,Box, Button, ButtonGroup  } from '@chakra-ui/react';
+import { Heading,Box, Button  } from '@chakra-ui/react';
 
 export default function MexFood(){
     return(

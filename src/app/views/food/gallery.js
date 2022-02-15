@@ -3,7 +3,6 @@ import {
     Center,
     useColorModeValue,
     Heading,
-    SimpleGrid,
     Stack,
     Image,
     Grid, 
@@ -19,6 +18,10 @@ import image3 from '../../assets/images/birria.jpeg';
 
 export default function Picture(props) {
     return (
+        <div>
+        <Heading paddingTop={10} align={"center"} fontSize={'6xl'} fontFamily={'body'} fontWeight={500}>
+        Come and see why our taste rules!
+        </Heading>
         <Grid templateColumns={{base: "repeat(1, 1fr)", md: "repeat(3, 1fr)"}} gap="2" >
             <GridItem>
                 <Center py={12}>
@@ -64,11 +67,9 @@ export default function Picture(props) {
                         />
                         </Box>
                         <Stack pt={10} align={'center'}>
-                        
                         <Heading fontSize={'2xl'} fontFamily={'body'} fontWeight={500}>
                             Mexican food
                         </Heading>
-                        
                         </Stack>
                     </Box>
                    </Link>
@@ -118,11 +119,9 @@ export default function Picture(props) {
                         />
                         </Box>
                         <Stack pt={10} align={'center'}>
-                        
                         <Heading fontSize={'2xl'} fontFamily={'body'} fontWeight={500}>
                             Hot Birria Specials
                         </Heading>
-                        
                         </Stack>
                     </Box>
                    </Link>
@@ -182,5 +181,6 @@ export default function Picture(props) {
                 </Center>
               </GridItem> 
         </Grid>
+        </div>
       );
 }

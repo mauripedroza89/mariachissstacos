@@ -9,12 +9,13 @@ const Footer = () => (
     as="footer"
     role="contentinfo"
     mx="auto"
-    maxW="7xl"
+    maxW="auto"
     py="12"
     px={{
       base: '4',
       md: '8',
     }}
+    backgroundColor='#49111c'
   >
     <Stack>
       

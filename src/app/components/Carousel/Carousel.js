@@ -16,7 +16,7 @@ import {
    
     return (
       <div>
-          <Stack id="favourites" height={{ base: '400', md: '700' }}>
+          <Stack id="favourites" height={{ base: '400', md: '700' }} marginX='1' marginY='1'>
                            <div className='container-fluid' style={{ display: 'block', height: 900, padding: 0 }}>  
                            <Carousel >  
                            <Carousel.Item > 
@@ -219,4 +219,3 @@ import {
   }
   
   export default Carousels;
-  
