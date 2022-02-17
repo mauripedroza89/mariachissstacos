@@ -6,10 +6,10 @@ export default function MexFood(){
     return(
         <div>
             <Navbar/>
-            <Box bg={'red.400'} 
+            <Box bg={'#a9927d'} 
                   w='100%' 
                   p={4} 
-                  color='white' 
+                  color='#f2f4f3' 
                   borderWidth='3px' 
                   borderRadius='lg' 
                   overflow='hidden'
@@ -18,13 +18,14 @@ export default function MexFood(){
 
             </Box>
             <a href="/menu/food/">
-                <Button
+            <Button
                 size='md'
-                colorScheme='red'
+                bgColor='#49111c'
+                textColor='#f2f4f3'
                 height='48px'
                 width='200px'
                 border='2px'
-                borderColor='red.500'
+                borderColor='#a9927d'
                 >
                 Go Back
                 </Button>

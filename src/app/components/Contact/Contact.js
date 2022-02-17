@@ -28,20 +28,20 @@ import { SiDoordash } from "react-icons/si";
           maxW={'320px'}
           w={'100,500,full'}
           h={'70,170,220px'}
-          bg={useColorModeValue('white', 'red.900')}
+          bg={useColorModeValue('#49111c', '#49111c')}
           boxShadow={'dark-lg'}
           rounded={'lg'}
           p={6}
           textAlign={'center'}
           paddingTop={50}
           >
-          <IconButton  icon={<TiLocationOutline fontSize="60px" />}/>
-          <Heading marginTop={3} fontSize={'2xl'} fontFamily={'body'}>
+          <IconButton icon={<TiLocationOutline color={'#a9927d'} fontSize="60px" />}/>
+          <Heading color={'#f2f4f3'} marginTop={3} fontSize={'2xl'} fontFamily={'body'}>
           Visit us
           </Heading>
           <Text
             textAlign={'center'}
-            color={useColorModeValue('red.700', 'red.400')}
+            color={useColorModeValue('#f2f4f3', 'red.400')}
             px={3}>
             11922 Potranco Rd, San Antonio, TX 78253
           </Text>
@@ -52,20 +52,20 @@ import { SiDoordash } from "react-icons/si";
           maxW={'320px'}
           w={'full'}
           h={'220px'}
-          bg={useColorModeValue('white', 'red.900')}
+          bg={useColorModeValue('#49111c', 'red.900')}
           boxShadow={'dark-lg'}
           rounded={'lg'}
           p={6}
           textAlign={'center'}
           paddingTop={50}
           >
-          <IconButton icon={<FaMobileAlt fontSize="60px" />}/>
-          <Heading marginTop={3} fontSize={'2xl'} fontFamily={'body'}>
+          <IconButton  icon={<FaMobileAlt color={'#a9927d'} fontSize="60px" />}/>
+          <Heading color={'#f2f4f3'} marginTop={3} fontSize={'2xl'} fontFamily={'body'}>
           Call us
           </Heading>
           <Text
             textAlign={'center'}
-            color={useColorModeValue('red.700', 'red.400')}
+            color={useColorModeValue('#f2f4f3', 'red.400')}
             px={3}>
             210-417-6754
           </Text>
@@ -76,20 +76,20 @@ import { SiDoordash } from "react-icons/si";
           maxW={'320px'}
           w={'full'}
           h={'220px'}
-          bg={useColorModeValue('white', 'red.900')}
+          bg={useColorModeValue('#49111c', 'white')}
           boxShadow={'dark-lg'}
           rounded={'lg'}
           p={6}
           textAlign={'center'}
           paddingTop={50}
           >
-          <IconButton icon={<SiDoordash fontSize="60px" />}/>
-          <Heading marginTop={3} fontSize={'2xl'} fontFamily={'body'}>
+          <IconButton icon={<SiDoordash color={'#a9927d'} fontSize="60px" />}/>
+          <Heading color={'#f2f4f3'} marginTop={3} fontSize={'2xl'} fontFamily={'body'}>
           Visit us
           </Heading>
           <Text
             textAlign={'center'}
-            color={useColorModeValue('red.700', 'red.400')}
+            color={useColorModeValue('#f2f4f3', 'red.400')}
             px={3}>
             Place a delivery order
           </Text>

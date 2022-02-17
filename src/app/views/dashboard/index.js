@@ -5,16 +5,28 @@ import {
     Text,
     VStack,
     useBreakpointValue,
+    Image 
    
   } from '@chakra-ui/react';
   import './style.css'
 import { Footer, Navbar, Carousels, Owner, Testimonials, Contact } from '../../components';
-import mariachiphoto from '../../assets/images/mariachistruck.jpeg'
+import mariachiphoto from '../../assets/images/mariachistruck.jpeg';
+import banner2 from '../../assets/images/banner2.jpeg';
   
   export default function Dashboard() {
     return (
       <Stack backgroundColor='#f2f4f3'>
+        
       <Navbar/>
+      <Stack>
+        <Image 
+        align={'center'}
+        rounded={'lg'}
+        maxW={'100%'}
+        maxH={'60%'}
+        objectFit={'cover'}
+        src={''}/>
+      </Stack>
       <Carousels/>
       <Stack marginX='1' marginY='1'>
       <Flex

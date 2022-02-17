@@ -10,7 +10,10 @@ import {
     Image,
   } from '@chakra-ui/react';
 
-
+import image1 from '../../assets/images/banner.jpeg';
+import image2 from '../../assets/images/freshdrinks.jpeg';
+import image3 from '../../assets/images/food/wings.jpeg';
+import image4 from '../../assets/images/food/torta.jpeg';
 
   function Carousels() {
    
@@ -44,7 +47,7 @@ import {
                                         pos: 'absolute',
                                         top: 5,
                                         left: 0,
-                                        backgroundImage: `https://www.omm.com/~/media/images/site/locations/san_francisco_780x520px.ashx`,
+                                        backgroundImage: `url(${image1})`,
                                         filter: 'blur(15px)',
                                         zIndex: -1,
                                         }}
@@ -56,14 +59,14 @@ import {
                                         <Image
                                         align={'center'}
                                         rounded={'lg'}
-                                        height={{ base: '400', md: '700' }}
-                                        width={'90%'}
+                                        maxW={'100%'}
+                                        maxH={'100%'}
                                         objectFit={'cover'}
-                                        src={'https://www.omm.com/~/media/images/site/locations/san_francisco_780x520px.ashx'}
+                                        src={image1}
                                         />
                                     </Box>
                                     <Carousel.Caption>
-                                <Heading>1st Demo </Heading>
+                                <Heading textShadow="2px 2px #ff0000" > </Heading>
                                     </Carousel.Caption>
                                     </Box>
                                 </Carousel.Item>
@@ -92,7 +95,7 @@ import {
                                         pos: 'absolute',
                                         top: 5,
                                         left: 0,
-                                        backgroundImage: `https://www.omm.com/~/media/images/site/locations/san_francisco_780x520px.ashx`,
+                                        backgroundImage: `url(${image2})`,
                                         filter: 'blur(15px)',
                                         zIndex: -1,
                                         }}
@@ -104,14 +107,14 @@ import {
                                         <Image
                                         align={'center'}
                                         rounded={'lg'}
-                                        height={{ base: '400', md: '700' }}
-                                        width={'90%'}
+                                        maxW={'100%'}
+                                        maxH={'100%'}
                                         objectFit={'cover'}
-                                        src={'https://www.omm.com/~/media/images/site/locations/san_francisco_780x520px.ashx'}
+                                        src={image2}
                                         />
                                     </Box>
                                     <Carousel.Caption>
-                                <Heading>2nd Demo </Heading>
+                                <Heading textShadow="2px 2px #ff0000" >Lemonade and Horchata </Heading>
                                     </Carousel.Caption>
                                     </Box>
                                 </Carousel.Item>
@@ -140,7 +143,7 @@ import {
                                         pos: 'absolute',
                                         top: 5,
                                         left: 0,
-                                        backgroundImage: `https://www.omm.com/~/media/images/site/locations/san_francisco_780x520px.ashx`,
+                                        backgroundImage: `url(${image3})`,
                                         filter: 'blur(15px)',
                                         zIndex: -1,
                                         }}
@@ -152,14 +155,14 @@ import {
                                         <Image
                                         align={'center'}
                                         rounded={'lg'}
-                                        height={{ base: '400', md: '700' }}
-                                        width={'90%'}
+                                        maxW={'100%'}
+                                        maxH={'100%'}
                                         objectFit={'cover'}
-                                        src={'https://www.omm.com/~/media/images/site/locations/san_francisco_780x520px.ashx'}
+                                        src={image3}
                                         />
                                     </Box>
                                     <Carousel.Caption>
-                                <Heading>3rd Demo </Heading>
+                                <Heading textShadow="2px 2px #ff0000" >Wings</Heading>
                                     </Carousel.Caption>
                                     </Box>
                                 </Carousel.Item>
@@ -188,7 +191,7 @@ import {
                                         pos: 'absolute',
                                         top: 5,
                                         left: 0,
-                                        backgroundImage: `https://www.omm.com/~/media/images/site/locations/san_francisco_780x520px.ashx`,
+                                        backgroundImage: `url(${image4})`,
                                         filter: 'blur(15px)',
                                         zIndex: -1,
                                         }}
@@ -200,14 +203,14 @@ import {
                                         <Image
                                         align={'center'}
                                         rounded={'lg'}
-                                        height={{ base: '400', md: '700' }}
-                                        width={'90%'}
+                                        maxW={'100%'}
+                                        maxH={'100%'}
                                         objectFit={'cover'}
-                                        src={'https://www.omm.com/~/media/images/site/locations/san_francisco_780x520px.ashx'}
+                                        src={image4}
                                         />
                                     </Box>
                                     <Carousel.Caption>
-                                <Heading>4th Demo </Heading>
+                                <Heading textShadow="2px 2px #ff0000" >Torta </Heading>
                                     </Carousel.Caption>
                                     </Box>
                                 </Carousel.Item>

@@ -8,13 +8,14 @@ export default function UsFood(){
         <div>
             <Navbar/>
             <a href="/menu/food/">
-                <Button
+            <Button
                 size='md'
-                colorScheme='red'
+                bgColor='#49111c'
+                textColor='#f2f4f3'
                 height='48px'
                 width='200px'
                 border='2px'
-                borderColor='red.500'
+                borderColor='#a9927d'
                 >
                 Go Back
                 </Button>
