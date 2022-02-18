@@ -1,37 +1,37 @@
 [
     {
         "name": "Mini tacos",
-        "price": "$9",
+        "price": "$8",
         "image": "https://live.staticflickr.com/65535/51801038897_afaf0211b6_m.jpg",
         "description": "Your choice of meat, cilantro, onion, grilled onion and charro beans."
     },
     {
         "name": "Dorados",
-        "price": "$9",
+        "price": "$8",
         "image": "https://live.staticflickr.com/65535/51802714730_a8150074ae.jpg",
         "description": "Crispy birria tacos with cheese and a side of consome."
     },
     {
         "name": "Burrito",
-        "price": "$8",
+        "price": "$7",
         "image": "https://live.staticflickr.com/65535/51801983491_cf33b4ea42.jpg",
         "description": "Your choice of meat, tomato, avocado, lettuce and sour cream."
     },
     {
-        "name": "Quesadilla",
-        "price": "$8",
-        "image": "./assets/images/food/quesadilla.jpeg",
+        "name": "Quesadillas",
+        "price": "$7",
+        "image": "https://live.staticflickr.com/65535/51690264222_be94d232e6.jpg",
         "description": "Your choice of meat, lettuce, tomato and a side of guacamole"
     },
     {
         "name": "Torta",
-        "price": "$8",
+        "price": "$7",
         "image": "https://live.staticflickr.com/65535/51801038892_cd1638c675_m.jpg",
         "description": "Your choice of meat, lettuce, tomato and a side of fries"
     },
     {
         "name": "Papa campechana",
-        "price": "$7.50",
+        "price": "$7",
         "image": "https://live.staticflickr.com/65535/51691738889_f944b7b01c.jpg",
         "description": "Baked potato with meat, melted cheese and grilled onion."
     }
