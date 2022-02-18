@@ -2,7 +2,7 @@
   
     {
         "name": "Dorados",
-        "price": "$89",
+        "price": "$9",
         "image": "https://live.staticflickr.com/65535/51802714730_a8150074ae.jpg",
         "description": "Crispy birria tacos with cheese and a side of consome."
     },
@@ -14,15 +14,9 @@
     },
     {
         "name": "Burrito Filemon",
-        "price": "$89",
-        "image": "https://live.staticflickr.com/65535/51690264227_7cee92be42.jpg",
-        "description": "Red birria burrito with cheese, cilantro, onion and a side of consome."
-    },
-    {
-        "name": "Christian's plate",
         "price": "$9",
         "image": "https://live.staticflickr.com/65535/51690264227_7cee92be42.jpg",
-        "description": "Birria, onion, cilantro, 5 tortillas, consome and charro beans."
+        "description": "Red birria burrito with cheese, cilantro, onion and a side of consome."
     },
     {
         "name": "Supreme torta",

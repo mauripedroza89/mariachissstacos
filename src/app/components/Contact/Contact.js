@@ -85,16 +85,46 @@ import { SiDoordash } from "react-icons/si";
           >
           <IconButton icon={<SiDoordash color={'#a9927d'} fontSize="60px" />}/>
           <Heading color={'#f2f4f3'} marginTop={3} fontSize={'2xl'} fontFamily={'body'}>
-          Visit us
+          Place an order
           </Heading>
           <Text
             textAlign={'center'}
             color={useColorModeValue('#f2f4f3', 'red.400')}
             px={3}>
-            Place a delivery order
+            Click here
           </Text>
         </Box>
         </Link>
+        
+         <Box
+          maxW={'320px'}
+          w={'full'}
+          h={'220px'}
+          bg={useColorModeValue('#49111c', 'white')}
+          boxShadow={'dark-lg'}
+          rounded={'lg'}
+          p={6}
+          textAlign={'center'}
+          paddingTop={50}
+          >
+          
+          <Heading color={'#f2f4f3'} marginTop={-9} fontSize={'2xl'} fontFamily={'body'}>
+          Store Hours:
+          </Heading>
+          <Text
+            textAlign={'center'}
+            color={useColorModeValue('#f2f4f3', 'red.400')}
+            px={3}>
+            Monday:	6:00pm - 12:00am
+            Tuesday:	6:00pm - 12:00am
+            Wednesday:	6:00pm - 12:00am
+            Thursday:	6:00pm - 12:00am
+            Friday:	6:00pm - 1:00am
+            Saturday:	6:00pm - 1:00am
+            Sunday: CLOSED
+          </Text>
+        </Box>
+        
       </Stack>
     );
   }
