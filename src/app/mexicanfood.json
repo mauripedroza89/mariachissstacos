@@ -8,7 +8,13 @@
     {
         "name": "Dorados",
         "price": "$9",
-        "image": "https://live.staticflickr.com/65535/51802714730_a8150074ae.jpg",
+        "image": "https://live.staticflickr.com/65535/51986319992_96de28d4e3_b.jpg",
+        "description": "Crispy birria tacos with cheese and a side of consome."
+    },
+    {
+        "name": "Choriqueso",
+        "price": "$8",
+        "image": "https://live.staticflickr.com/65535/51986293007_35948eebe2_b.jpg",
         "description": "Crispy birria tacos with cheese and a side of consome."
     },
     {
@@ -20,7 +26,7 @@
     {
         "name": "Quesadilla",
         "price": "$8",
-        "image": "./assets/images/food/quesadilla.jpeg",
+        "image": "https://live.staticflickr.com/65535/51987359878_6e3469477e_b.jpg",
         "description": "Your choice of meat, lettuce, tomato and a side of guacamole"
     },
     {
@@ -31,8 +37,8 @@
     },
     {
         "name": "Papa campechana",
-        "price": "$7.50",
-        "image": "https://live.staticflickr.com/65535/51691738889_f944b7b01c.jpg",
+        "price": "$8",
+        "image": "https://live.staticflickr.com/65535/51986293007_35948eebe2_b.jpg",
         "description": "Baked potato with meat, melted cheese and grilled onion."
     }
 ]

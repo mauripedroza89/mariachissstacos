@@ -1,44 +1,44 @@
 [
     {
         "name": "Jarritos",
-        "price": "$2",
+        "price": "$2.5",
         "image": "https://live.staticflickr.com/65535/51690264252_abfe32d5f3.jpg",
         "description": "Choose between fruit punch, pineapple, tamarind, mandarin, strawberry and lime."
     },
     {
         "name": "Mexican coke",
-        "price": "$3",
+        "price": "$3.5",
         "image": "https://live.staticflickr.com/65535/51690264227_7cee92be42.jpg",
         "description": "500 ml mexican style coke."
     },
     {
         "name": "Sangria",
-        "price": "$2",
+        "price": "$2.5",
         "image": "https://live.staticflickr.com/65535/51690264222_be94d232e6.jpg",
         "description": "Made with wine grapes, essence of lemon, cane sugar, and carbonated water."
     },
     {
         "name": "Manzanita sol",
-        "price": "$2",
+        "price": "$2.5",
         "image": "https://live.staticflickr.com/65535/51691948615_83999a11af.jpg",
         "description": "Apple-flavored soft drinks."
     },
     {
         "name": "Can soda",
-        "price": "$1",
+        "price": "$1.5",
         "image": "https://live.staticflickr.com/65535/51691738889_f944b7b01c.jpg",
-        "description": "Choose between coca-cola, sprite and diet coke."
+        "description": "Choose between coca-cola, sprite, DR Pepper, Big Red and diet coke."
     },
     {
         "name": "Lemonade",
         "price": "$3",
-        "image": "https://live.staticflickr.com/65535/51802108783_557083f583_m.jpg",
-        "description": "Daily made fresh lemonade."
+        "image": "https://live.staticflickr.com/65535/51987362023_7a6119ed4e_b.jpg",
+        "description": "Daily made fresh lemonade, medium size $3 and large $5."
     },
     {
         "name": "Horchata",
         "price": "$3",
-        "image": "https://live.staticflickr.com/65535/51802108788_c6a50d9432.jpg",
-        "description": "Daily made fresh horchata water."
+        "image": "https://live.staticflickr.com/65535/51987362023_7a6119ed4e_b.jpg",
+        "description": "Daily made fresh horchata water, medium size $3 and large $5."
     }
 ]
