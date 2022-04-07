@@ -1,7 +1,7 @@
 [
     {
         "name": "Mini tacos",
-        "price": "$8",
+        "price": "$9",
         "image": "https://live.staticflickr.com/65535/51801038897_afaf0211b6_m.jpg",
         "description": "Your choice of meat, cilantro, onion, grilled onion and charro beans."
     },
@@ -19,7 +19,7 @@
     },
     {
         "name": "Burrito",
-        "price": "$7",
+        "price": "$8",
         "image": "https://live.staticflickr.com/65535/51801983491_cf33b4ea42.jpg",
         "description": "Your choice of meat, tomato, avocado, lettuce and sour cream."
     },
@@ -31,7 +31,7 @@
     },
     {
         "name": "Torta",
-        "price": "$7",
+        "price": "$8",
         "image": "https://live.staticflickr.com/65535/51801038892_cd1638c675_m.jpg",
         "description": "Your choice of meat, lettuce, tomato and a side of fries"
     },
