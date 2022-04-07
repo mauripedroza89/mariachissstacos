@@ -8,6 +8,7 @@ import {
   Container,
   Avatar,
   useColorModeValue,
+  Link
 } from '@chakra-ui/react';
 
 const Testimonial = ({ children }: { children: ReactNode }) => {
@@ -98,51 +99,42 @@ export default function Testimonials() {
           spacing={{ base: 10, md: 4, lg: 10 }}>
           <Testimonial>
             <TestimonialContent>
-              <TestimonialHeading>Efficient Collaborating</TestimonialHeading>
+              <TestimonialHeading>Delicious</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                neque sed imperdiet nibh lectus feugiat nunc sem.
-              </TestimonialText>
+              The best birria in Town!
+              The Dorados, and giant quesadilla are the best! </TestimonialText>
             </TestimonialContent>
-            <TestimonialAvatar
-              src={
-                'https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80'
-              }
-              name={'Jane Cooper'}
-              title={'CEO at ABC Corporation'}
-            />
+            <Link color={'white'} href='https://www.google.com/maps/contrib/110134336146027994402/reviews?hl=en-US'>
+              <TestimonialAvatar
+              src={''}
+              name={'Mauricio Munoz'}
+            /></Link>
           </Testimonial>
           <Testimonial>
             <TestimonialContent>
-              <TestimonialHeading>Intuitive Design</TestimonialHeading>
+              <TestimonialHeading>Great Salsas</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                neque sed imperdiet nibh lectus feugiat nunc sem.
+              Delicious food! Tried it one day went back the next day eventhough i was low on funds 🤣🤣🤣 thats how good it was!!! Most definitely recommend!!!!
               </TestimonialText>
             </TestimonialContent>
-            <TestimonialAvatar
-              src={
-                'https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80'
-              }
-              name={'Jane Cooper'}
-              title={'CEO at ABC Corporation'}
-            />
+            <Link color={'white'} href='https://www.google.com/maps/contrib/110281027595909957630/reviews?hl=en-US'>
+              <TestimonialAvatar
+              src={''}
+              name={'F Z'}
+            /></Link>
           </Testimonial>
           <Testimonial>
             <TestimonialContent>
-              <TestimonialHeading>Mindblowing Service</TestimonialHeading>
+              <TestimonialHeading>Flavorful</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                neque sed imperdiet nibh lectus feugiat nunc sem.
+              Great food, and great prices. Beans were flavorful and spicy. 😋 Tacos were tender and tortillas cooked perfectly soft. Definitely enjoyed their food, and will be returning to try something new.
               </TestimonialText>
             </TestimonialContent>
-            <TestimonialAvatar
-              src={
-                'https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80'
-              }
-              name={'Jane Cooper'}
-              title={'CEO at ABC Corporation'}
-            />
+            <Link color={'white'} href='https://www.google.com/maps/contrib/102797052969583650043/reviews/@29.5666608,-98.4415412,11z/data=!3m1!4b1!4m3!8m2!3m1!1e1?hl=en-US'>
+              <TestimonialAvatar
+              src={''}
+              name={'Ana Bade'}
+            /></Link>
           </Testimonial>
         </Stack>
       </Container>

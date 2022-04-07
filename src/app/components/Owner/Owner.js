@@ -47,9 +47,9 @@ import banner from '../../assets/images/banner2.jpeg';
               </Text>
             </Heading>
             <Text color={'#49111c'}>
-              Snippy is a rich coding snippets app that lets you create your own
-              code snippets, categorize them, and even sync them in the cloud so
-              you can use them anywhere. All that is free!
+              Come and try our daily made plates, we put our heart on your food
+              come and try our delicious birria, original Jalisco recipe from our homeland to your plate.
+              We hope you enjoy our place, share us and rate us, thanks!
             </Text>
             <Stack
               spacing={{ base: 4, sm: 6 }}
