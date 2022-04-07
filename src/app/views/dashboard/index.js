@@ -11,7 +11,6 @@ import {
   import './style.css'
 import { Footer, Navbar, Carousels, Owner, Testimonials, Contact } from '../../components';
 import mariachiphoto from '../../assets/images/mariachistruck.jpeg';
-import banner2 from '../../assets/images/banner2.jpeg';
   
   export default function Dashboard() {
     return (

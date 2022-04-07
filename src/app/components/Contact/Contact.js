@@ -16,7 +16,7 @@ import { SiDoordash } from "react-icons/si";
   export default function Contact() {
     return (
       <Stack id="contact" 
-            direction="row" 
+
             py={6} 
             spacing='8' 
             justifyContent={"center"}
