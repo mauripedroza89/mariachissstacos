@@ -250,13 +250,14 @@ import {
       ],
     },
     {
-        label: 'Promos',
-        href: '#',
+      label: 'Favourites',
+      href: '/#favourites',
+    },
+    {
+        label: 'Our Prices',
+        href: '/#prices',
       },
-      {
-        label: 'Our favourites',
-        href: '/#favourites',
-      },
+      
     {
       label: 'About Mariachisss',
       href: '/#about',

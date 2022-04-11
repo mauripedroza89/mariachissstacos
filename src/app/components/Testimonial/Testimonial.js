@@ -92,7 +92,7 @@ export default function Testimonials() {
       <Container maxW={'7xl'} py={16} as={Stack} spacing={12}>
         <Stack spacing={0} align={'center'}>
           <Heading color={useColorModeValue('#f2f4f3', '#f2f4f3')}>Our Clients Speak</Heading>
-          <Text color={useColorModeValue('#f2f4f3', '#f2f4f3')}>We have been working with clients around the world</Text>
+          <Text color={useColorModeValue('#f2f4f3', '#f2f4f3')}>The best birria in San Antonio</Text>
         </Stack>
         <Stack
           direction={{ base: 'column', md: 'row' }}

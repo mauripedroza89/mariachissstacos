@@ -12,7 +12,7 @@ import {
 
 
 import image1 from '../../assets/images/mexicanfood.jpeg';
-import image2 from '../../assets/images/wings.png';
+import image2 from '../../assets/images/food/wings.jpeg';
 import image3 from '../../assets/images/birria.jpeg';
  
 
