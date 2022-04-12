@@ -39,7 +39,7 @@ import banner from '../../assets/images/banner2.jpeg';
                   bg: '#49111c',
                   zIndex: -1,
                 }}>
-                Our manager,
+                Founder,
               </Text>
               <br />
               <Text as={'span'} color={'#49111c'}>
