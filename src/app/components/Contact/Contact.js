@@ -115,12 +115,12 @@ import { SiDoordash } from "react-icons/si";
             textAlign={'center'}
             color={useColorModeValue('#f2f4f3', 'red.400')}
             px={3}>
-            Monday:	6:00pm - 12:00am
-            Tuesday:	6:00pm - 12:00am
-            Wednesday:	6:00pm - 12:00am
-            Thursday:	6:00pm - 12:00am
-            Friday:	6:00pm - 1:00am
-            Saturday:	6:00pm - 1:00am
+            Monday:	5:00pm - 12:00am
+            Tuesday:	5:00pm - 12:00am
+            Wednesday:	5:00pm - 12:00am
+            Thursday:	5:00pm - 12:00am
+            Friday:	5:00pm - 1:00am
+            Saturday:	5:00pm - 1:00am
             Sunday: CLOSED
           </Text>
         </Box>
