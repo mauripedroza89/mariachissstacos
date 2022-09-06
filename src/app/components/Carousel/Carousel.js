@@ -67,7 +67,7 @@ import image6 from '../../assets/images/mariachistruck.jpeg';
                                         />
                                     </Box>
                                     <Carousel.Caption>
-                                <Heading textShadow="2px 2px #ff0000" > Because we love our clients, we have moved to a more confortable place, visit us to our new location at 12046 Potranco Rd, San Antonio, TX 78245, next to the Lone Star Crossfit</Heading>
+                                <Heading textShadow="2px 2px #ff0000" > Dear customers, since September 16th you will find us in 12275 Potranco Rd, 78253, Area 51 Food Park, thanks!</Heading>
                                     </Carousel.Caption>
                                     </Box>
                                 </Carousel.Item>
