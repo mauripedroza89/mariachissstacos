@@ -14,6 +14,7 @@ import image3 from '../../assets/images/food/wings.jpeg';
 import image4 from '../../assets/images/food/carousel2.jpeg';
 import image5 from '../../assets/images/food/carousel3.jpeg';
 import image6 from '../../assets/images/mariachistruck.jpeg';
+import image7 from '../../assets/images/newcarousel.jpeg';
 
 
   function Carousels() {
@@ -68,6 +69,54 @@ import image6 from '../../assets/images/mariachistruck.jpeg';
                                     </Box>
                                     <Carousel.Caption>
                                 <Heading textShadow="2px 2px #ff0000" > Dear customers, since September 16th you will find us in 12275 Potranco Rd, 78253, Area 51 Food Park, thanks!</Heading>
+                                    </Carousel.Caption>
+                                    </Box>
+                                </Carousel.Item>
+                                <Carousel.Item > 
+                                <Box
+                                    role={'group'}
+                                    p={6}
+                                    w={'full'}
+                                    bg={useColorModeValue('white', 'gray.800')}
+                                    boxShadow={'2xl'}
+                                    rounded={'lg'}
+                                    pos={'relative'}
+                                    zIndex={1}>
+                                    <Box
+                                        align={'center'}
+                                        rounded={'lg'}
+                                        borderRadius='full'
+                                        mt={-12}
+                                        pos={'relative'}
+                                        height={{ base: '400', md: '700' }}
+                                        _after={{
+                                        transition: 'all .3s ease',
+                                        content: '""',
+                                        w: 'full',
+                                        h: 'full',
+                                        pos: 'absolute',
+                                        top: 5,
+                                        left: 0,
+                                        backgroundImage: `url(${image7})`,
+                                        filter: 'blur(15px)',
+                                        zIndex: -1,
+                                        }}
+                                        _groupHover={{
+                                        _after: {
+                                            filter: 'blur(50px)',
+                                        },
+                                        }}>
+                                        <Image
+                                        align={'center'}
+                                        rounded={'lg'}
+                                        maxW={'100%'}
+                                        maxH={'100%'}
+                                        objectFit={'cover'}
+                                        src={image7}
+                                        />
+                                    </Box>
+                                    <Carousel.Caption>
+                                <Heading textShadow="2px 2px #ff0000" > </Heading>
                                     </Carousel.Caption>
                                     </Box>
                                 </Carousel.Item>

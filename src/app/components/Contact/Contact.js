@@ -23,7 +23,7 @@ import { SiDoordash } from "react-icons/si";
             align={'center'}
             direction={{ base: 'column', md: 'row' }}
             spacing={{ base: 10, md: 4, lg: 10 }}>
-       <Link href='https://goo.gl/maps/WszpoLcvKMge1Jtq8'>         
+       <Link href='https://g.page/area51foodpark?share'>         
         <Box
           maxW={'320px'}
           w={'100,500,full'}
@@ -43,7 +43,7 @@ import { SiDoordash } from "react-icons/si";
             textAlign={'center'}
             color={useColorModeValue('#f2f4f3', 'red.400')}
             px={3}>
-            12046 Potranco Rd, San Antonio, TX 78245
+            12275 Potranco Rd, San Antonio, TX 78253
           </Text>
         </Box>
         </Link>
