@@ -13,7 +13,7 @@ import image2 from '../../assets/images/freshdrinks.jpeg';
 import image3 from '../../assets/images/food/wings.jpeg';
 import image4 from '../../assets/images/food/carousel2.jpeg';
 import image5 from '../../assets/images/food/carousel3.jpeg';
-import image6 from '../../assets/images/mariachistruck.jpeg';
+import image6 from '../../assets/images/cristo1.jpeg';  
 import image7 from '../../assets/images/newcarousel.jpeg';
 
 
@@ -68,7 +68,7 @@ import image7 from '../../assets/images/newcarousel.jpeg';
                                         />
                                     </Box>
                                     <Carousel.Caption>
-                                <Heading textShadow="2px 2px #ff0000" > Dear customers, since September 16th you will find us in 12275 Potranco Rd, 78253, Area 51 Food Park, thanks!</Heading>
+                                {/* <Heading textShadow="2px 2px #ff0000" > Dear customers, we are located in 12275 Potranco Rd, 78253, Area 51 Food Park, thanks!</Heading> */}
                                     </Carousel.Caption>
                                     </Box>
                                 </Carousel.Item>
@@ -356,7 +356,7 @@ import image7 from '../../assets/images/newcarousel.jpeg';
                                         />
                                     </Box>
                                     <Carousel.Caption>
-                                <Heading textShadow="2px 2px #ff0000" >Consome </Heading>
+                                <Heading textShadow="2px 2px #ff0000" >Birria, asada, suadero, pastor, buche, tripas, barbacoa and chorizo </Heading>
                                     </Carousel.Caption>
                                     </Box>
                                 </Carousel.Item>
