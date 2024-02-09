@@ -8,12 +8,12 @@ import {
     Image,
   } from '@chakra-ui/react';
 
-import image1 from '../../assets/images/valentin.jpg';
+import image1 from '../../assets/images/banner.jpg';
 import image2 from '../../assets/images/freshdrinks.jpeg';
 import image3 from '../../assets/images/food/wings.jpeg';
 import image4 from '../../assets/images/food/carousel2.jpeg';
 import image5 from '../../assets/images/food/carousel3.jpeg';
-import image6 from '../../assets/images/cristo1.jpeg';  
+import image6 from '../../assets/images/valentin.jpg';  
 import image7 from '../../assets/images/newcarousel.jpeg';
 
 
