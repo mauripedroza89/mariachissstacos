@@ -65,7 +65,7 @@ import image8 from '../../assets/images/newcarousel9.jpeg';
                                         maxW={'100%'}
                                         maxH={'100%'}
                                         objectFit={'cover'}
-                                        src={image6}
+                                        src={image1}
                                         />
                                     </Box>
                                     <Carousel.Caption>
@@ -113,7 +113,7 @@ import image8 from '../../assets/images/newcarousel9.jpeg';
                                         maxW={'100%'}
                                         maxH={'100%'}
                                         objectFit={'cover'}
-                                        src={image6}
+                                        src={image2}
                                         />
                                     </Box>
                                     <Carousel.Caption>
@@ -161,7 +161,7 @@ import image8 from '../../assets/images/newcarousel9.jpeg';
                                         maxW={'100%'}
                                         maxH={'100%'}
                                         objectFit={'cover'}
-                                        src={image7}
+                                        src={image3}
                                         />
                                     </Box>
                                     <Carousel.Caption>
@@ -209,7 +209,7 @@ import image8 from '../../assets/images/newcarousel9.jpeg';
                                         maxW={'100%'}
                                         maxH={'100%'}
                                         objectFit={'cover'}
-                                        src={image1}
+                                        src={image4}
                                         />
                                     </Box>
                                     <Carousel.Caption>
@@ -257,7 +257,7 @@ import image8 from '../../assets/images/newcarousel9.jpeg';
                                         maxW={'100%'}
                                         maxH={'100%'}
                                         objectFit={'cover'}
-                                        src={image2}
+                                        src={image5}
                                         />
                                     </Box>
                                     <Carousel.Caption>
@@ -305,7 +305,7 @@ import image8 from '../../assets/images/newcarousel9.jpeg';
                                         maxW={'100%'}
                                         maxH={'100%'}
                                         objectFit={'cover'}
-                                        src={image3}
+                                        src={image6}
                                         />
                                     </Box>
                                     <Carousel.Caption>
@@ -353,7 +353,7 @@ import image8 from '../../assets/images/newcarousel9.jpeg';
                                         maxW={'100%'}
                                         maxH={'100%'}
                                         objectFit={'cover'}
-                                        src={image4}
+                                        src={image7}
                                         />
                                     </Box>
                                     <Carousel.Caption>
@@ -401,7 +401,7 @@ import image8 from '../../assets/images/newcarousel9.jpeg';
                                         maxW={'100%'}
                                         maxH={'100%'}
                                         objectFit={'cover'}
-                                        src={image5}
+                                        src={image8}
                                         />
                                     </Box>
                                     <Carousel.Caption>
