@@ -8,13 +8,14 @@ import {
     Image,
   } from '@chakra-ui/react';
 
-import image1 from '../../assets/images/banner.jpeg';
-import image2 from '../../assets/images/freshdrinks.jpeg';
-import image3 from '../../assets/images/food/wings.jpeg';
-import image4 from '../../assets/images/food/carousel2.jpeg';
-import image5 from '../../assets/images/food/carousel3.jpeg';
-import image6 from '../../assets/images/valentin.jpg';  
-import image7 from '../../assets/images/newcarousel.jpeg';
+import image1 from '../../assets/images/newcarousel2.jpeg';
+import image2 from '../../assets/images/newcarousel3.jpeg';
+import image3 from '../../assets/images/newcarousel4.jpeg';
+import image4 from '../../assets/images/newcarousel5.jpeg';
+import image5 from '../../assets/images/newcarousel6.jpeg';
+import image6 from '../../assets/images/newcarousel7.jpeg';
+import image7 from '../../assets/images/newcarousel8.jpeg';
+import image8 from '../../assets/images/newcarousel9.jpeg';
 
 
   function Carousels() {
@@ -49,7 +50,7 @@ import image7 from '../../assets/images/newcarousel.jpeg';
                                         pos: 'absolute',
                                         top: 5,
                                         left: 0,
-                                        backgroundImage: `url(${image6})`,
+                                        backgroundImage: `url(${image1})`,
                                         filter: 'blur(15px)',
                                         zIndex: -1,
                                         }}
@@ -69,6 +70,54 @@ import image7 from '../../assets/images/newcarousel.jpeg';
                                     </Box>
                                     <Carousel.Caption>
                                 {/* <Heading textShadow="2px 2px #ff0000" > Dear customers, we are located in 12275 Potranco Rd, 78253, Area 51 Food Park, thanks!</Heading> */}
+                                    </Carousel.Caption>
+                                    </Box>
+                                </Carousel.Item>
+                                            <Carousel.Item > 
+                                <Box
+                                    role={'group'}
+                                    p={6}
+                                    w={'full'}
+                                    bg={useColorModeValue('white', 'gray.800')}
+                                    boxShadow={'2xl'}
+                                    rounded={'lg'}
+                                    pos={'relative'}
+                                    zIndex={1}>
+                                    <Box
+                                        align={'center'}
+                                        rounded={'lg'}
+                                        borderRadius='full'
+                                        mt={-12}
+                                        pos={'relative'}
+                                        height={{ base: '400', md: '700' }}
+                                        _after={{
+                                        transition: 'all .3s ease',
+                                        content: '""',
+                                        w: 'full',
+                                        h: 'full',
+                                        pos: 'absolute',
+                                        top: 5,
+                                        left: 0,
+                                        backgroundImage: `url(${image2})`,
+                                        filter: 'blur(15px)',
+                                        zIndex: -1,
+                                        }}
+                                        _groupHover={{
+                                        _after: {
+                                            filter: 'blur(50px)',
+                                        },
+                                        }}>
+                                        <Image
+                                        align={'center'}
+                                        rounded={'lg'}
+                                        maxW={'100%'}
+                                        maxH={'100%'}
+                                        objectFit={'cover'}
+                                        src={image6}
+                                        />
+                                    </Box>
+                                    <Carousel.Caption>
+                                {/* <Heading textShadow="2px 2px #ff0000" > Dear customers, we are located in 12275 Potranco Rd, 78253, Area 51 Food Park, thanks!</Heading>{/* */}
                                     </Carousel.Caption>
                                     </Box>
                                 </Carousel.Item>
@@ -97,7 +146,7 @@ import image7 from '../../assets/images/newcarousel.jpeg';
                                         pos: 'absolute',
                                         top: 5,
                                         left: 0,
-                                        backgroundImage: `url(${image7})`,
+                                        backgroundImage: `url(${image3})`,
                                         filter: 'blur(15px)',
                                         zIndex: -1,
                                         }}
@@ -145,7 +194,7 @@ import image7 from '../../assets/images/newcarousel.jpeg';
                                         pos: 'absolute',
                                         top: 5,
                                         left: 0,
-                                        backgroundImage: `url(${image1})`,
+                                        backgroundImage: `url(${image4})`,
                                         filter: 'blur(15px)',
                                         zIndex: -1,
                                         }}
@@ -193,7 +242,7 @@ import image7 from '../../assets/images/newcarousel.jpeg';
                                         pos: 'absolute',
                                         top: 5,
                                         left: 0,
-                                        backgroundImage: `url(${image2})`,
+                                        backgroundImage: `url(${image5})`,
                                         filter: 'blur(15px)',
                                         zIndex: -1,
                                         }}
@@ -212,7 +261,7 @@ import image7 from '../../assets/images/newcarousel.jpeg';
                                         />
                                     </Box>
                                     <Carousel.Caption>
-                                <Heading textShadow="2px 2px #ff0000" >Lemonade and Horchata </Heading>
+                                <Heading textShadow="2px 2px #ff0000" ></Heading>
                                     </Carousel.Caption>
                                     </Box>
                                 </Carousel.Item>
@@ -241,7 +290,7 @@ import image7 from '../../assets/images/newcarousel.jpeg';
                                         pos: 'absolute',
                                         top: 5,
                                         left: 0,
-                                        backgroundImage: `url(${image3})`,
+                                        backgroundImage: `url(${image6})`,
                                         filter: 'blur(15px)',
                                         zIndex: -1,
                                         }}
@@ -260,7 +309,7 @@ import image7 from '../../assets/images/newcarousel.jpeg';
                                         />
                                     </Box>
                                     <Carousel.Caption>
-                                <Heading textShadow="2px 2px #ff0000" >Wings</Heading>
+                                <Heading textShadow="2px 2px #ff0000" ></Heading>
                                     </Carousel.Caption>
                                     </Box>
                                 </Carousel.Item>
@@ -289,7 +338,7 @@ import image7 from '../../assets/images/newcarousel.jpeg';
                                         pos: 'absolute',
                                         top: 5,
                                         left: 0,
-                                        backgroundImage: `url(${image4})`,
+                                        backgroundImage: `url(${image7})`,
                                         filter: 'blur(15px)',
                                         zIndex: -1,
                                         }}
@@ -308,7 +357,7 @@ import image7 from '../../assets/images/newcarousel.jpeg';
                                         />
                                     </Box>
                                     <Carousel.Caption>
-                                <Heading textShadow="2px 2px #ff0000" >Dorados </Heading>
+                                <Heading textShadow="2px 2px #ff0000" > </Heading>
                                     </Carousel.Caption>
                                     </Box>
                                 </Carousel.Item>
@@ -337,7 +386,7 @@ import image7 from '../../assets/images/newcarousel.jpeg';
                                         pos: 'absolute',
                                         top: 5,
                                         left: 0,
-                                        backgroundImage: `url(${image5})`,
+                                        backgroundImage: `url(${image8})`,
                                         filter: 'blur(15px)',
                                         zIndex: -1,
                                         }}
@@ -356,7 +405,7 @@ import image7 from '../../assets/images/newcarousel.jpeg';
                                         />
                                     </Box>
                                     <Carousel.Caption>
-                                <Heading textShadow="2px 2px #ff0000" >Birria, asada, suadero, pastor, buche, tripas, barbacoa and chorizo </Heading>
+                                <Heading textShadow="2px 2px #ff0000" > </Heading>
                                     </Carousel.Caption>
                                     </Box>
                                 </Carousel.Item>
