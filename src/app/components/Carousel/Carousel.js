@@ -117,7 +117,7 @@ import image8 from '../../assets/images/newcarousel9.jpeg';
                                         />
                                     </Box>
                                     <Carousel.Caption>
-                                {/* <Heading textShadow="2px 2px #ff0000" > Dear customers, we are located in 12275 Potranco Rd, 78253, Area 51 Food Park, thanks!</Heading>{/* */}
+                                {/* <Heading textShadow="2px 2px #ff0000" > Dear customers, we are located in 12275 Potranco Rd, 78253, Area 51 Food Park, thanks!</Heading> */}
                                     </Carousel.Caption>
                                     </Box>
                                 </Carousel.Item>
