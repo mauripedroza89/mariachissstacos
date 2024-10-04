@@ -43,7 +43,7 @@ import { SiDoordash } from "react-icons/si";
             textAlign={'center'}
             color={useColorModeValue('#f2f4f3', 'red.400')}
             px={3}>
-            12275 Potranco Rd, San Antonio, TX 78253
+            9822 Potranco Rd, San Antonio, TX 78251
           </Text>
         </Box>
         </Link>
@@ -67,11 +67,11 @@ import { SiDoordash } from "react-icons/si";
             textAlign={'center'}
             color={useColorModeValue('#f2f4f3', 'red.400')}
             px={3}>
-            210-417-6754
+            210-276-0577
           </Text>
         </Box>
         </Link>
-        <Link href={"https://food.google.com/chooseprovider?restaurantId=/g/11nmq1lvk7&g2lbs=AGgkzMwBs88DqJEq_lmHmagRPHUVL7DVA4SL4twZQFick6E4Y1QD-s60sxgKjNXE7Y4xKqJcAWGa6EON7n4hHmri2enEPCCZGQ%3D%3D&hl=en-US&gl=us&cs=1&ssta=1&fo_m=MfohQo559jFvMWwP9igWZeWQMczq7voErUdXMT_RFPQ05bfKMQVr5-7IofUJMU_hT8vrWuwRMUOzJVpjPL1YMfaXTPp5KXh-OAE%3D&gei=Dbr8YZv2DcyWaMjvsMAL&fo_s=OA,AH&orderType=1&sei=CcPHbosl7byqEZSCiFc_zWDo&utm_campaign&utm_source=search"}>
+        <Link href={"https://maps.app.goo.gl/7pX5kddJbcMu6a2G8"}>
         <Box
           maxW={'320px'}
           w={'full'}
@@ -115,13 +115,11 @@ import { SiDoordash } from "react-icons/si";
             textAlign={'center'}
             color={useColorModeValue('#f2f4f3', 'red.400')}
             px={3}>
-            Monday:	5:00pm - 12:00am
-            Tuesday:	5:00pm - 12:00am
-            Wednesday:	5:00pm - 12:00am
-            Thursday:	5:00pm - 12:00am
-            Friday:	5:00pm - 1:00am
-            Saturday:	5:00pm - 1:00am
-            Sunday: CLOSED
+            Monday - Thursday:	
+            8:00am - 11:00pm
+            Friday & Saturday:
+            8:00am - 12:00am
+            Sunday: 8:00am - 10:00pm
           </Text>
         </Box>
         
